@@ -7,6 +7,7 @@ public class Main {
         return sum;
     }
 
+
     public static void noiseLevelAmount(Vehicles[] vehicles) {
         for (Vehicles v : vehicles) {
             if (v instanceof Regular) {
